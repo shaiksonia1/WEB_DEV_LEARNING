@@ -1,0 +1,111 @@
+@font-face{
+    font-family: FontRegular ;
+    src: url(Assests/Fonts/sf-pro-icons_regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FontRegular ;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 2vw;
+    width: 100%;
+    height: 5vh;
+    background-color: #161617CC;
+}
+.nav-bar{
+   
+    background-color: #1D1D1F;
+
+}
+.nav-bar a{
+    text-decoration: none;
+color: rgb(0, 136,255);
+font-size: 1.2vw;
+transition-behavior: all cubic-bexier(0.19,1,0.22,1)1s;
+}
+.nav-bar p a{
+    font-size: 14  px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav i{
+    font-size: 1.1vw;
+}
+.part-1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    
+}
+.text-part-1{
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    position: absolute;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+} 
+.text-part-1 h1{
+    font-size: 3vw;
+
+}
+.text-part-1 p{
+    font-size: 1.6vw;
+
+}
+.link{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.link a{
+text-decoration: none;
+color: rgb(0, 136,255);
+font-size: 1.2vw;
+transition-behavior: all cubic-bexier(0.19,1,0.22,1)1s;
+}
+
+.link a:hover{
+    border-bottom: 1px solid rgb(0, 136,255);
+}
+
+.part-2{
+    margin-top: 13px;
+    /* background-image: url(Assests/hero_iphone15_announce__uuemlcwczn6u_large.jpg); */
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+   
+}
+.text-part-2{
+    color: #333;
+}
+.part-3{
+    margin-top: 13px;
+    /* background-image: url(Assests/hero_apple_watch_series_9__x5wo4ptz2giu_large.jpg); */
+}
