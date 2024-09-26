@@ -1,4 +1,4 @@
-var name = prompt("what is your name?");
+var name = prompt("what is your name");
 var firstChar = name.slice(0,1);
 var upperCase = firstChar.toUpperCase();
 var restName = name.slice(1,name.length);
@@ -23,8 +23,7 @@ function getMilk(money) {
     console.log("moveUp");
     console.log("moveRight");
     console.log("moveRight");
-    var numberOfBottles = Math.floor(money/1.5)
-    console.log(numberOfBottles + "bottles of milk")   
+  
     console.log("moveLeft");
     console.log("moveLeft");
     console.log("moveDown");
@@ -34,6 +33,7 @@ function getMilk(money) {
     console.log("moveLeft");
     console.log("moveLeft");
     console.log("enterHouse");
+    return money%1.5
   }
   getMilk(5);
 
